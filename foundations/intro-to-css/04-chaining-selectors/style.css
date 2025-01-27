@@ -4,6 +4,6 @@
     width: 300px;
 }
 .avatar.proportioned{
-    height: 300px;
+    height: auto;
     width: 300px;
 }
