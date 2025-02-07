@@ -18,14 +18,18 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: auto;
+  padding: 0;
   display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  margin: 0px 4px;
+  margin: 4px 4px;
   /* this removes the line under the links */
   text-decoration: none;
 }
