@@ -37,3 +37,8 @@ img {
   text-align: center;
   flex: 1 1 200px;
 }
+
+.text
+{
+  max-width: 200px;
+}
