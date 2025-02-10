@@ -5,12 +5,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-
+  
   /* My solution */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 50px;
+  background: white;;
 }
 
 img {
@@ -22,6 +23,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* My solution */
+  padding: 10px;
 }
 
 input {
@@ -38,6 +42,11 @@ input {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.footer{
+  background: #eeeeee;
+}
+
 a{
   text-decoration: none;
   margin-left: 0;
