@@ -28,10 +28,7 @@ input {
 /* My solution starts here */
 
 
-.header .footer{
-  display: flex;
-}
-.header{
+.header, .footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
