@@ -48,15 +48,30 @@ a{
 .content{
   display: flex;
   flex-direction: row;
-  flex: 1;
 }
 
-.content:nth-child(0){
-  flex-grow:1;
-  
+.sidebar{
+  min-width:fit-content;
+  padding: 20px;
 }
-.content:nth-child(1){
-  flex-grow:2;
+ul{
+  margin: 0;
+  padding: 0;
+}
+.cards-container{
+  background-color: blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+}
+
+.card{
+  height: 250px;
+  padding: 8px;
+  flex: 0 0 250px;
+  flex-wrap: wrap;
+  background-color: #eee;
 }
 
 .footer{
