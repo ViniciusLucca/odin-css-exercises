@@ -24,3 +24,27 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My solution starts here */
+
+.header .footer{
+  display: flex;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+ul{
+  display: flex;
+}
