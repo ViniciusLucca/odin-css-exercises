@@ -37,31 +37,46 @@ body{
 }
 li{
   list-style-type: none;
+  margin: 5px;
 }
 a{
   text-decoration: none;
+  color: white;
 }
+
+.header, .footer{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
 .header{
   flex: 0 1 40px;
 }
-
+h1{
+  margin: 0;
+  padding: 0;
+}
 .content{
+  flex: 1;
   display: flex;
   flex-direction: row;
 }
 
 .sidebar{
-  min-width:fit-content;
-  padding: 20px;
+  min-width: max-content;
+  padding: 20px 40px;
 }
+
 ul{
   margin: 0;
   padding: 0;
 }
 .cards-container{
-  background-color: blueviolet;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  background-color: blueviolet;
   padding: 20px;
   gap: 10px;
 }
@@ -77,5 +92,5 @@ ul{
 .footer{
   margin: 0;
   padding: 0;
-  text-align: center;
+  justify-content: center;
 }
