@@ -27,10 +27,10 @@ input {
 
 /* My solution starts here */
 
+
 .header .footer{
   display: flex;
 }
-
 .header{
   display: flex;
   flex-direction: row;
@@ -39,6 +39,7 @@ input {
 
 a{
   text-decoration: none;
+  margin-left: 0;
 }
 
 li{
@@ -47,4 +48,7 @@ li{
 
 ul{
   display: flex;
+  padding-left: 0;
+  margin: 16px 40px;
+  gap: 20px;
 }
