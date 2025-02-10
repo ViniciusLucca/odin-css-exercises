@@ -33,7 +33,11 @@ input {
   flex-direction: row;
   justify-content: space-between;
 }
-
+.footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
 a{
   text-decoration: none;
   margin-left: 0;
