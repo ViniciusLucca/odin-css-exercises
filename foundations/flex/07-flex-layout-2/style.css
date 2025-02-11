@@ -64,8 +64,9 @@ h1{
 }
 
 .sidebar{
-  min-width: max-content;
-  padding: 20px 40px;
+  min-width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 ul{
